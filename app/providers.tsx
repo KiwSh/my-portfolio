@@ -27,7 +27,7 @@ export function Providers({ children }: { children: ReactNode }) {
       attribute="class" 
       defaultTheme="system"
       enableSystem={true}
-      suppressHydrationWarning={true}
+    //   suppressHydrationWarning={true}
     >
       <AppContext.Provider value={{ isLoading, setIsLoading }}>
         {children}
